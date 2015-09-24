@@ -14,7 +14,7 @@ public class TestGit {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Systen.out.println("这是一个测试文件");
 	}
 
 }
