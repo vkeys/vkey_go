@@ -7,7 +7,7 @@ public class User{
 	private Integer id;
 	private String username;
 	private String password;
-	private int sex;
+	private int gender;
 	
 	public Integer getId() {
 		return id;
@@ -27,11 +27,11 @@ public class User{
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public int getSex() {
-		return sex;
+	public int getGender() {
+		return gender;
 	}
-	public void setSex(int sex) {
-		this.sex = sex;
+	public void setGender(int gender) {
+		this.gender = gender;
 	}
 	
 }
