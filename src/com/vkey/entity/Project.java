@@ -9,7 +9,7 @@ package com.vkey.entity;
  */
 public class Project {
 	private Integer id;
-	private String name;
+	private String username;
 	
 	public Integer getId() {
 		return id;
@@ -17,11 +17,11 @@ public class Project {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getUsername() {
+		return username;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 	
 }
